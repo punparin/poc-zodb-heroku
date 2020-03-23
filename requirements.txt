@@ -1,0 +1,17 @@
+BTrees==4.7.1
+cffi==1.14.0
+click==7.1.1
+Flask==1.1.1
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+persistent==4.6.3
+pycparser==2.20
+six==1.14.0
+transaction==3.0.0
+Werkzeug==1.0.0
+zc.lockfile==2.0
+ZConfig==3.5.0
+ZODB==5.5.1
+zodbpickle==2.0.0
+zope.interface==5.0.1
