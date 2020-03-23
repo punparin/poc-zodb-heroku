@@ -2,7 +2,7 @@ from AccountManager import *
 from flask import Flask, request, jsonify
 import json
 
-am = AccountManager()
+# am = AccountManager()
 
 app = Flask(__name__)
 
@@ -13,6 +13,10 @@ def getAccounts():
 @app.route('/api/accounts/<name>', methods=['POST'])
 def addAccount(name):
     return { "message": am.addAccount(name) }
+
+@app.route('/')
+def index():
+    return "<h1>Testing endpoint</h1>"
 
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
